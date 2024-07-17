@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farzat Restaurant</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">    
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/custom.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/eye.css' rel='stylesheet'>
+  
+</head>
+<body>
+	<div class="menu-box" style="margin-top:20vh">
+		<div class="container-login container" >
+			<h1 style="color: #cfa671; padding-top:5px;">Anmeldung</h1>
+			<p id="errorMessage" style="color: red;"></p>
+            <form method="POST" class="formAnmeldung" id="formAnmeldungAdmin" onsubmit="return false" action="">
+                <div class="txt_field password-container" id="password_txt_field">
+                    <input type="password" required name='kennwort' id="loginPassword" placeholder=" ">
+                    <span></span>
+					<i class="fa-solid fa-eye" id="eye"></i>
+                    <label>Passwort</label>
+                </div>
+                
+              	<button class="btn btn-lg btn-circle btn-outline-new-white allButtons shadow-none" id="loginButton" type="submit" style="margin-top: 20px;">Anmelden</button></br>
+				
+            </form>
+		</div>
+	</div>
+	
+</body>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/admin.js" type="module"></script>
+</html>

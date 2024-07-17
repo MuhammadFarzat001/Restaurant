@@ -1,0 +1,23 @@
+.password-container{
+    position: relative;
+    padding-right: 24px;
+  }
+  
+  .fa-eye{
+    position: absolute;
+    left: 100%-24px;
+    top: 50%;
+    cursor: pointer;
+    color: black;
+  }
+   .gg-eye {
+    position: absolute !important;
+    right: 0px !important;
+    top: 50% !important;
+    cursor: pointer;
+    color: black;
+
+}
+
+
+/** ADD YOUR AWESOME CODES HERE **/
